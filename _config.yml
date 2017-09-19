@@ -1,40 +1,44 @@
-# Website settings
+---
+title: Gruntwork Io.Github.Io
+timezone: America/Los_Angeles
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 baseurl: "/"
-url: "http://www.gruntwork.io"
-name: "Gruntwork"
-description: "Get up and running on AWS with DevOps best practices and world-class infrastructure in about 2 weeks. You focus on your product. We'll take care of the grunt work."
-full_company_name: "Gruntwork, LLC"
-thumbnail_path: "logo/gruntwork-logo-standalone.png"
-repository: "gruntwork-io/gruntwork-io.github.io"
-
+url: http://www.gruntwork.io
+name: Gruntwork
+description: Get up and running on AWS with DevOps best practices and world-class
+  infrastructure in about 2 weeks. You focus on your product. We'll take care of the
+  grunt work.
+full_company_name: Gruntwork, LLC
+thumbnail_path: logo/gruntwork-logo-standalone.png
+repository: gruntwork-io/gruntwork-io.github.io
 highlighter: rouge
-timezone: 'America/Los_Angeles'
-
-assets_base_url: '/assets/'
+assets_base_url: "/assets/"
 ga_tracker: UA-76462621-1
-
 exclude:
- - .dockerignore
- - .editorconfig
- - .gitignore
- - docker-compose.yml
- - Dockerfile
- - Gemfile
- - Gemfile.lock
- - jekyll-serve.sh
- - LICENSE.txt
- - package.json
- - README.md
- - webpack.config.js
- - source
- - node_modules
-
+- ".dockerignore"
+- ".editorconfig"
+- ".gitignore"
+- docker-compose.yml
+- Dockerfile
+- Gemfile
+- Gemfile.lock
+- jekyll-serve.sh
+- LICENSE.txt
+- package.json
+- README.md
+- webpack.config.js
+- source
+- node_modules
 sass:
   sass_dir: "/assets/css"
   style: :compressed
-
-# Plugins (GitHub Pages only support a few)
 gems:
-  - jekyll-redirect-from
-  - jekyll-sitemap
-  - jekyll-paginate
+- jekyll-redirect-from
+- jekyll-sitemap
+- jekyll-paginate
